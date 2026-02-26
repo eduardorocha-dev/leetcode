@@ -45,9 +45,9 @@ Example structure:
 
     leetcode/
     ├── two_sum.py
-    ├── valid_parentheses.py
-    ├── merge_two_sorted_lists.py
-    ├── maximum_subarray.py
+    ├── add-two-numbers.py
+    ├── longest-substring-without-repeating-characters.py
+    ├── 4.median-of-two-sorted-arrays.py
     └── ...
 
 Each file corresponds to a specific LeetCode problem.
