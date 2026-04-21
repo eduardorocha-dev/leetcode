@@ -31,16 +31,14 @@ class Solution:
 
             if Al <= Br and Bl <= Ar:
                 if total % 2:
-                    return max(Al, Bl)
+                    return min(Ar, Br)
                 else:
-                    Lmax = max(Al, Bl)
-                    Rmin = min(Ar, Br)
-                    return (Lmax+Rmin)/2
-                
+                    return (max(Al, Bl) + min(Ar, Br)) / 2
+
             if Al > Br:
-                high = high - 1
+                high = i - 1
             else:
-                low = low + 1
+                low = i + 1
 
 
         return 0
